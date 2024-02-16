@@ -1,0 +1,16 @@
+.sm-container {
+  width: 90%;
+  box-sizing: border-box;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding-top: calc(1.2944983819vw + 0.9466019417rem);
+  padding-bottom: calc(1.2944983819vw + 0.9466019417rem);
+}
+@media (min-width: 64em) {
+  .sm-container {
+    width: 80%;
+  }
+}
+.sm-separator {
+  border-bottom: solid #e0e7ef 1px;
+}
